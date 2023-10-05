@@ -1,11 +1,16 @@
 {
-	"name": "WireBox Mappings Exporter",
-	"slug": "wirebox-mappings-exporter",
-	"type": "modules",
-	"dependencies": {
-		"JSONPrettyPrint": "^1.4.1"
-	},
-	"installPaths": {
-		"JSONPrettyPrint": "modules/JSONPrettyPrint/"
-	}
+  "name": "WireBox Mappings Exporter",
+  "slug": "wirebox-mappings-exporter",
+  "type": "modules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpickin/wirebox-mappings-exporter"
+  },
+  "dependencies": {
+    "JSONPrettyPrint": "^1.4.1"
+  },
+  "installPaths": {
+    "JSONPrettyPrint": "modules/JSONPrettyPrint/"
+  },
+  "ignore": [".git", ".gitignore", ".DS_Store", "tests"]
 }

@@ -1,0 +1,11 @@
+{
+	"name": "WireBox Mappings Exporter",
+	"slug": "wirebox-mappings-exporter",
+	"type": "modules",
+	"dependencies": {
+		"JSONPrettyPrint": "^1.4.1"
+	},
+	"installPaths": {
+		"JSONPrettyPrint": "modules/JSONPrettyPrint/"
+	}
+}
